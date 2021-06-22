@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SlideSwitch">
+        <attr name="pow_checked_drawable" format="reference"/>
+        <attr name="pow_checked_bac" format="reference"/>
+        <attr name="pow_checked_hei" format="dimension"/>
+        <attr name="pow_fixed_item" format="integer"/>
+        <attr name="pow_show_over_scroll" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="BannerSwitch">
+        <!--单页显示最大条数-->
+        <attr name="pow_switch_fixed_item" format="integer"/>
+        <!--是否支持触摸滚动-->
+        <attr name="pow_switch_touch_scroll" format="boolean"/>
+        <!--是否显示边界 如果显示无法无线轮播-->
+        <attr name="pow_switch_fixed_edge" format="boolean"/>
+        <!--自动切换时间间隔-->
+        <attr name="pow_switch_period" format="integer"/>
+        <!--自动切换动画时间-->
+        <attr name="pow_switch_animation_period" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="PowSwitch">
+        <attr name="pow_switch_icon_on" format="reference"/>
+        <attr name="pow_switch_icon_off" format="reference"/>
+        <attr name="pow_switch_bac_on" format="reference"/>
+        <attr name="pow_switch_bac_off" format="reference"/>
+    </declare-styleable>
+
+
+
+</resources>
